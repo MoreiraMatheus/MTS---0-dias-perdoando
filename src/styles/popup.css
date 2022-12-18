@@ -1,0 +1,45 @@
+dialog{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, .6);
+  animation: .3s modalBackgroundAppears linear;
+  border: none;
+}
+
+#modal{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 400px;
+  border-radius: 8px;
+  background-color: #262626;
+  animation: .3s modalAppears linear;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .7);
+}
+
+p{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  width: 80%;
+  height: 0px;
+}
+
+#loading{
+  position: relative;
+  top: 0;
+  height: 5px;
+  width: 0px;
+  background-color: #6d28d9;
+  animation: 4s loading linear
+}
