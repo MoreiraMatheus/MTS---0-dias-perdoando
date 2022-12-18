@@ -11,20 +11,27 @@
   <link href="https://fonts.googleapis.com/css2?;700&family=Orbitron&family=Play:wght@400;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="../styles/style.css">
+  <script src="../js/index.js" defer></script>
 </head>
 <body>
   <main>
     <img src="../assets/logo.png" alt="foto MTS">
     <h1>Dias perdoando</h1>
-    <div class="pardonContainer">
-      <div class="pardonDays">
+    <div id="pardonContainer">
+      <div id="pardonDays">
         <span>0</span>
       </div>
-      <div class="pardonButtons">
-        <button>-</button>
-        <button>+</button>
+      <div id="pardonButtons">
+        <button id="minus">-</button>
+        <button id="plus">+</button>
       </div>
     </div>
   </main>
+  <dialog>
+    <div id="modal">
+      <p></p>
+      <div id="loading"></div>
+    </div>
+  </dialog>
 </body>
 </html>
